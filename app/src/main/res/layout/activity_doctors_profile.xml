@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    tools:context=".DoctorsProfileActivity">
+
+    <TextView
+        android:id="@+id/userNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.077"
+            app:srcCompat="@drawable/user_icon3" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView31"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="10dp"
+            android:text="Telephone Number"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView51"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="10dp"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="21dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+        Specialization:"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"
+        android:text="Specialization"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="21dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+        Description:"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"
+        android:text="Description"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="21dp" />
+
+    <Button
+        android:id="@+id/startChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start chatting" />
+</LinearLayout>

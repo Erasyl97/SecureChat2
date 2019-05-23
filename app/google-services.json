@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "63686845873",
+    "firebase_url": "https://chat2-10ea7.firebaseio.com",
+    "project_id": "chat2-10ea7",
+    "storage_bucket": "chat2-10ea7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63686845873:android:6e4cb42ab8984923",
+        "android_client_info": {
+          "package_name": "com.example.erabe_000.securechat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63686845873-bkfvn807q8uajao5ubphkvp6jo2qhnav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.erabe_000.securechat2",
+            "certificate_hash": "69331a7ad837f007ceec9831c35a1410c728dbce"
+          }
+        },
+        {
+          "client_id": "63686845873-alcoe36bhg76klsthrp8gjgpusbio33d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRvawLoZsSivV6suwk9NzqtYlsP2Zmmkc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63686845873-alcoe36bhg76klsthrp8gjgpusbio33d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

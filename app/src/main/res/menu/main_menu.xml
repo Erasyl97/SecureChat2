@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"/>
+    <item
+        android:title="Messages"
+        android:id="@+id/messages"/>
+    <item
+        android:title="Users"
+        android:id="@+id/users"/>
+    <item
+        android:title="Doctors"
+        android:id="@+id/doctors"/>
+    <item
+        android:title="My storage"
+        android:id="@+id/storage"/>
+    <item
+        android:title="Sign Out"
+        android:id="@+id/menu_sign_out"/>
+
+</menu>
